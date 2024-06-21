@@ -125,9 +125,19 @@ img {
 }
 
 /************************************************
-    SOLUZIONE RESPONSIVE
+    BONUS RESPONSIVE
  ************************************************/
 
+ @media screen and (max-width: 1160px){
+
+    .site-header, .steps{
+        width: 1160px;
+    }
+}
+
+/************************************************
+    SOLUZIONE RESPONSIVE
+ ************************************************/
 /* 
     TABLET 768px
  */
@@ -157,6 +167,7 @@ img {
 */
 
 @media screen and (max-width: 480px){
+    
     .row{
         display: block;
     }
@@ -199,3 +210,5 @@ img {
         max-width: 70vw;
     }
 }
+
+
